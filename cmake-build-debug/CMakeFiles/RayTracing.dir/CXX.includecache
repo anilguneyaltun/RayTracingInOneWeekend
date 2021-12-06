@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/guney/Developer/RayTracing/main.cpp
+iostream
+-
+fstream
+-
+vec3.hpp
+/Users/guney/Developer/RayTracing/vec3.hpp
+ray.hpp
+/Users/guney/Developer/RayTracing/ray.hpp
+
+/Users/guney/Developer/RayTracing/ray.hpp
+vec3.hpp
+/Users/guney/Developer/RayTracing/vec3.hpp
+
+/Users/guney/Developer/RayTracing/vec3.hpp
+math.h
+-
+stdlib.h
+-
+iostream
+-
+
